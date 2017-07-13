@@ -7,12 +7,11 @@ Humanist Min is a design language being developed by the team at Feathers Design
 H-Min is a humanist take on modernist minimalism. While modernism put function first and definitely had its perks, some would comment that it lacked humanism. It was strict and unforgiving. I was a staunch modernist for many years, while slowly maturing into a more humane, relatable designer. Note, I'm not saying modernism is bad altogether, just that we can do a little better!
 
 ## Roadmap
-The Humanist Min manifesto is a living document. Here's the roadmap. This will be revised from time to time, or may be changed completely. Until we have at least a very preliminary draft, Humanist Min cannot be used anywhere. Several points *may* be pursued simultaneously on multiple threads. Note that some design disciplines like game design and automotive design have not yet been considered as part of H-Min. Could the H-Min core be applicable to such other fields will be left for later. Collaborators welcome.
+The Humanist Min manifesto is a living document. Here's the roadmap. This will be revised from time to time, or may be changed completely. Until we have at least a very preliminary draft, Humanist Min cannot be practically used anywhere. Several points *may* be pursued simultaneously on multiple threads. Note that some design disciplines like game design and automotive design have not yet been considered as part of H-Min. Whether the H-Min core can be applicable to such other fields will be left for later. Collaborators welcome.
 -	[ ] Define Humanist Min and core philosophy.
 -	[ ] Define recommended fonts and font combinations.
 -	[ ] Define recommended colors and color combinations or gradients.
 -	[ ] Basic geometry.
-- [ ] Define fields of application.
 - [ ] Create UI and graphic framework.
 - [ ] Create stylesheet (CSS).
 - [ ] H-Min in motion graphics.
