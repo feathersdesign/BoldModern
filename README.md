@@ -1,7 +1,7 @@
 # Humanist Min
 Humanist Min is a design language being developed by the team at Feathers Design. The language itself is open source and you can feel free to contribute or to use it in your own project. :bowtie:
 
-> :exclamation: This is a very early draft and is a living document. Not recommended for use in production. :confused:
+> :exclamation: This is a very early work in progress and is a living document. Not recommended for use in production. :confused:
 
 ## What is Humanist Min
 H-Min is a humanist take on modernist minimalism. While modernism put function first and definitely had its perks, some would comment that it lacked humanism. It was strict and unforgiving. I was a staunch modernist for many years, while slowly maturing into a more humane, relatable designer. Note, I'm not saying modernism is bad altogether, just that we can do a little better!
@@ -22,4 +22,4 @@ The Humanist Min manifesto is a living document. Here's the roadmap. This will b
 - [ ] H-Min elsewhere—textile, art.
 
 ---
-This project is still very premature. You can join to collaborate by creating a pull request or come over to discuss on Telegram at t.me/humanistmodern.
+This project is still very premature. You can join to collaborate by creating a pull request or come over to discuss on Telegram at [t.me/humanistmin](https://t.me/humanistmin).
