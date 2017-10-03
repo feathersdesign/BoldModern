@@ -1,6 +1,9 @@
 $primary-font: "Roboto", "Helvetica", "Arial", sans-serif
+$column-number: 10
 
 @import "_partials/base"
+// import "_partials/grid"
+@import "_partials/grid-beta"
 
 html
     font-family: $primary-font
@@ -13,22 +16,3 @@ body
 h1
     font-size: 2em
     line-height: 1em
-
-.row
-    display: flex
-    align-content: center
-    align-self: center
-    align-self: center
-    max-width: 90vw
-    margin: auto
-    overflow: none
-
-.column
-    margin: 1%
-    padding: 2%
-    flex: 1
-    background: #f00
-
-@media screen and (max-width: 600px)
-    .row
-        display: block

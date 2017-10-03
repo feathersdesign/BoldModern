@@ -1,0 +1,25 @@
+.row
+    width: 100%
+    margin: auto
+    display: grid
+
+$row-slug: row
+$col-slug: col
+
+$column-number: 10
+
+@for $i from 1 through $column-number
+    $col-widths: ""
+    @for $j from 1 through $i
+        $col-widths: $col-widths + "[col-#{$i}] " + 100/$i + "% "
+    .#{$row-slug}-#{$i}c
+        @extend .row
+        grid-template-columns: #{$col-widths}
+
+
+@for $i from 1 through $column-number
+    .#{$col-slug}-#{$i}
+        grid-area: col-#{$i}
+        background: #fff
+        margin: auto
+        align-content: center
