@@ -6,7 +6,7 @@ Humanist Min is a design language being developed by the team at Feathers Design
 
 ## What is Humanist Min
 
-H-Min is a humanist take on modernist minimalism. While modernism put function first and definitely had its perks, some would comment that it lacked humanism. It was strict and unforgiving. I was a staunch modernist for many years, while slowly maturing into a more humane, relatable designer. HumanistMin is the culmination of my experience, and will keep developing.
+H-Min is a humanist take on modernist minimalism. While modernism definitely has its perks by putting function first, some would argue that it lacks humanism. It was strict and unforgiving. I was a staunch modernist for many years, while slowly maturing into a more humane, relatable designer. HumanistMin is the culmination of my experience, and it will keep developing.
 
 ## Roadmap
 

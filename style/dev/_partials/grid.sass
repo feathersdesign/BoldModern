@@ -3,55 +3,16 @@
     margin: auto
     display: grid
 
-.row-1c
-    @extend .row
-    grid-template-columns: [col-1] 100%
-
-.row-2c
-    @extend .row
-    grid-template-columns: [col-1] 50% [col-2] 50%
-
-.row-3c
-    @extend .row
-    grid-template-columns: [col-1] 33.33333% [col-2] 33.33333% [col-3] 33.33333%
-
-.row-4c
-    @extend .row
-    grid-template-columns: [col-1] 25% [col-2] 25% [col-3] 25% [col-4] 25%
-
-.row-5c
-    @extend .row
-    grid-template-columns: [col-1] 20% [col-2] 20% [col-3] 20% [col-4] 20% [col-5] 20%
-
-.row-6c
-    @extend .row
-    grid-template-columns: [col-1] 16.66667% [col-2] 16.66667% [col-3] 16.66667% [col-4] 16.66667% [col-5] 16.66667%
-
-.row-7c
-    @extend .row
-    grid-template-columns: [col-1] 14.28571% [col-2] 14.28571% [col-3] 14.28571% [col-4] 14.28571% [col-5] 14.28571% [col-6] 14.28571% [col-7] 14.28571%
-
-.row-8c
-    @extend .row
-    grid-template-columns: [col-1] 12.5% [col-2] 12.5% [col-3] 12.5% [col-4] 12.5% [col-5] 12.5% [col-6] 12.5% [col-7] 12.5% [col-8] 12.5%
-
-.row-9c
-    @extend .row
-    grid-template-columns: [col-1] 11.11111% [col-2] 11.11111% [col-3] 11.11111% [col-4] 11.11111% [col-5] 11.11111% [col-6] 11.11111% [col-7] 11.11111% [col-8] 11.11111% [col-9] 11.11111%
-
-.row-10c
-    @extend .row
-    grid-template-columns: [col-1] 10% [col-2] 10% [col-3] 10% [col-4] 10% [col-5] 10% [col-6] 10% [col-7] 10% [col-8] 10% [col-9] 10% [col-10] 10%
-
 $row-slug: row
 $col-slug: col
 
 @for $i from 1 through $column-number
     $col-widths: ""
     @for $j from 1 through $i
-        $col-widths: $col-widths 100/$i
+        $col-widths: $col-widths + "[col-#{$j}] " + 100/$i + "% "
     .#{$row-slug}-#{$i}c
-        grid-template-columns: $col-widths
+        @extend .row
+        grid-template-columns: #{$col-widths}
 
 
 @for $i from 1 through $column-number
