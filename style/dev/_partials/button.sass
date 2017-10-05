@@ -1,18 +1,51 @@
 button
     display: inline-block
+    font-family: $primary-font
     background: #fff
-    color: #fe0000
-    font-family: "Roboto", Arial, Helvetica, sans-serif
-    font-weight: 500
+    color: $links-color
+    font-weight: 700
     font-size: 1.2em
     text-transform: uppercase
-    letter-spacing: 1px
+    letter-spacing: 2px
     border: 0
     border-radius: 2em
     padding: 0.5em 1em
     margin: 1em auto
     box-shadow: 0em 0.5em 2.5em rgba(0 ,0 ,0 , 0.2)
+    animation: button-released .3s ease-in-out
 
 button:hover
-    transform: translateY(-2.5px)
-    box-shadow: 0em 1.2em 3em rgba(0 ,0 ,0 , 0.30)
+    box-shadow: 0em 0.8em 2.5em rgba(0 ,0 ,0 , 0.25)
+    -webkit-animation: button-hover .3s ease-in // Safari 4.0 - 8.0
+    animation: button-hover .3s ease-in-out
+    transform: translateY(-4px)
+
+// Animations
+
+// Safari 4.0 - 8.0
+@-webkit-keyframes button-hover
+    0%
+        transform: translate(0, 0)
+    100%
+        transform: translateY(-4px)
+
+// Standard syntax
+@keyframes button-hover
+    0%
+        transform: translate(0, 0)
+    100%
+        transform: translateY(-4px)
+
+// Safari 4.0 - 8.0
+@-webkit-keyframes button-released
+    0%
+        transform: translateY(-4px)
+    100%
+        transform: translate(0, 0)
+
+// Standard syntax
+@keyframes button-released
+    0%
+        transform: translateY(-4px)
+    100%
+        transform: translate(0, 0)
