@@ -1,0 +1,9 @@
+$vendors: '-webkit-', '-moz-', '-ms-', ''
+
+@mixin prefix-p($name, $value)
+  @each $vendor in $vendors
+    #{$vendor}#{$name}: #{$value}
+
+@mixin prefix-v($name, $value)
+  @each $vendor in $vendors
+    #{$name}: #{$vendor}#{$value}
